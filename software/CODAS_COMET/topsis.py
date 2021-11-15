@@ -7,7 +7,7 @@ def TOPSIS(matrix, weights, types, method_distance):
     # Normalize matrix using chosen normalization (for example linear normalization)
     nmatrix = linear_normalization(matrix, types)
 
-    # Multiplicate all rows of normalized matrix by weights
+    # Multiply all rows of normalized matrix by weights
     weighted_matrix = nmatrix * weights
 
     # Calculate vectors of PIS (ideal solution) and NIS (anti-ideal solution)
