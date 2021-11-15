@@ -8,7 +8,7 @@ def CODAS(matrix, weights, types, method_distance):
     # Normalize matrix using linear normalization
     nmatrix = linear_normalization(matrix, types)
     
-    # Multiplicate all rows of normalized matrix by weights
+    # Multiply all rows of normalized matrix by weights
     weighted_matrix = nmatrix * weights
     m, n = weighted_matrix.shape
 
